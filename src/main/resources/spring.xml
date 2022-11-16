@@ -4,8 +4,14 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="springHelloWorld" class="pack.HelloWorld" scope="prototype">
-        <property name="message" value="Test hello"/>
+    <bean id="Language" class="DZ.partXML.Belarusin" scope="prototype">
+        <property name="message" value="Прывiтанне"/>
+    </bean>
+    <bean id ="Language1" class="DZ.partXML.English" scope="prototype">
+        <property name="message" value="Hello"/>
+    </bean>
+    <bean id ="Language2" class="DZ.partXML.Russian" scope="prototype">
+        <property name="message" value="Привет"/>
     </bean>
 
 </beans>
